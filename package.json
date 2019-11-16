@@ -1,11 +1,25 @@
 {
   "name": "reactruntools",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "build":"webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayot88/react-runtools.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kayot88/react-runtools/issues"
+  },
+  "homepage": "https://github.com/kayot88/react-runtools#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
