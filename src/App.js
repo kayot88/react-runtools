@@ -9,7 +9,9 @@ class App extends Component {
   state = {
     count: 0
   }
+
   render() {
+    // throw new Error('boom')
     return (
       <div>
         <h1 className={this.state.count > 10 ? 'warning' : null}>
