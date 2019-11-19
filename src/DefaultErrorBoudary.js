@@ -15,5 +15,5 @@ export default class DefaultErrorBoudary extends Component {
   }
 }
 DefaultErrorBoudary.propTypes = {
-  children: PropTypes.any
+  children: PropTypes.node.isRequired
 }
